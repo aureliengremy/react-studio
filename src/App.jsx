@@ -7,7 +7,7 @@ import Scene  from "./Scene";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="container-scene">
       <Suspense fallback={null}>
         <Canvas shadows>
           <Scene />
