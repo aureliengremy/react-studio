@@ -69,23 +69,23 @@ const Scene = () => {
         shadow-bias={-0.0001}
       />
 
-      {/* <EffectComposer> */}
+      <EffectComposer>
       {/* Make the scene and models more blur when you move back with the camera */}
-      {/* <DepthOfField focusDistance={0.0035} focalLength={0.01} bokehScale={3} height={480} /> */}
+      <DepthOfField focusDistance={0.0035} focalLength={0.02} bokehScale={2} height={480} />
       {/* <Bloom
           blendFunction={BlendFunction.ADD}
-          intensity={2.3} // The bloom intensity.
+          intensity={0} // The bloom intensity.
           width={300} // render width
           height={300} // render height
           kernelSize={5} // blur kernel size
           // luminanceThreshold={0.8} // luminance threshold. Raise this value to mask out darker elements in the scene.
           // luminanceSmoothing={0.025} // smoothness of the luminance threshold. Range is [0, 1]
         /> */}
-      {/* <ChromaticAberration
+      <ChromaticAberration
           blendFunction={BlendFunction.NORMAL} // blend mode
-          offset={[0.0006, 0.0006]} // color offset
-        /> */}
-      {/* </EffectComposer> */}
+          offset={[0.000006, 0.000006]} // color offset
+        />
+      </EffectComposer>
     </Fragment>
   );
 };
