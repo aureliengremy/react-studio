@@ -6,7 +6,6 @@ import {
   OrbitControls,
   PerspectiveCamera,
 } from "@react-three/drei";
-import { useFrame } from "@react-three/fiber";
 import {
   EffectComposer,
   DepthOfField,
