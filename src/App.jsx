@@ -10,7 +10,7 @@ const App = () => {
       <div className="container-music">
         <div className="absolute z-10 w-full h-full flex flex-row justify-around items-center">
           <div className="w-1/2 m-6 lg:mb-0 h-5/6">
-            <div className="relative flex flex-col bg-white/50 rounded-lg shadow-lg h-full overflow-auto">
+            <div className="relative flex flex-col bg-black/50 rounded-lg shadow-lg h-full overflow-auto">
               
                 <EmbediFrame />
                 <EmbediFrame />
